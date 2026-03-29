@@ -28,32 +28,7 @@ body {
   text-shadow: 0 0 5px rgba(255, 215, 0, 0.5), 0 0 15px rgba(255, 215, 0, 0.8), 0 0 30px rgba(255, 215, 0, 1);
 }
 
-/* Decorative Emoji Backgrounds (Street Art Vibe) */
-.bg-skull-emoji::before {
-  content: '💀';
-  position: absolute;
-  font-size: 60vw;
-  opacity: 0.03;
-  top: -5%;
-  left: -15%;
-  z-index: 0;
-  pointer-events: none;
-  transform: rotate(-20deg);
-  filter: grayscale(100%);
-}
-
-.bg-butterfly-emoji::after {
-  content: '🦋';
-  position: absolute;
-  font-size: 50vw;
-  opacity: 0.03;
-  bottom: 10%;
-  right: -10%;
-  z-index: 0;
-  pointer-events: none;
-  transform: rotate(25deg);
-  filter: grayscale(100%);
-}
+/* Decorative Emoji Backgrounds moved to inline Tailwind classes for hover effects */
 
 /* CSS Noise Texture for Urban Feel */
 .bg-noise {
