@@ -34,7 +34,7 @@ export default function App() {
           🦋
         </div>
 
-        <div className="relative z-10 text-center flex flex-col items-center">
+        <div className="relative z-10 text-center flex flex-col items-center animate-on-scroll">
           <h1 className="font-playfair text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-black uppercase tracking-tighter leading-none mb-6">
             <span className="neon-purple block transform -skew-x-6">BARBTATTOO</span>
             <span className="neon-pink block transform skew-x-6">& PIERCING</span>
@@ -44,7 +44,7 @@ export default function App() {
           </p>
         </div>
         
-        <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 animate-bounce opacity-50" role="img" aria-label="Rolar para baixo">
+        <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 animate-bounce opacity-50 animate-on-scroll" style={{ transitionDelay: '500ms' }} role="img" aria-label="Rolar para baixo">
           <span className="text-3xl">👇</span>
         </div>
       </header>
@@ -57,7 +57,7 @@ export default function App() {
         </h2>
         
         <div className="flex flex-col md:flex-row gap-16 md:gap-8">
-          <div className="flex-1 border-t-4 md:border-t-0 md:border-l-4 border-[#9B30FF] p-6 md:p-8 animate-on-scroll md:mt-0 relative group text-center md:text-left hover:scale-105 hover:bg-[#0d0d0d] hover:shadow-[0_0_40px_rgba(155,48,255,0.2)] hover:z-20 transition-all duration-300 cursor-default">
+          <div className="flex-1 border-t-4 md:border-t-0 md:border-l-4 border-[#9B30FF] p-6 md:p-8 animate-on-scroll md:mt-0 relative group text-center md:text-left hover:scale-105 hover:bg-[#0d0d0d] hover:shadow-[0_0_40px_rgba(155,48,255,0.2)] hover:z-20 transition-all duration-300 cursor-default" style={{ transitionDelay: '100ms' }}>
             <div className="text-6xl md:text-7xl mb-4 md:mb-6 transform group-hover:scale-110 transition-transform duration-300" role="img" aria-label="Ícone de Tatuagem">💉</div>
             <h3 className="font-playfair text-3xl md:text-4xl neon-purple mb-4 md:mb-6 uppercase">TATUAGEM</h3>
             <p className="font-raleway text-lg md:text-xl text-gray-300 leading-relaxed">
@@ -65,7 +65,7 @@ export default function App() {
             </p>
           </div>
           
-          <div className="flex-1 border-t-4 md:border-t-0 md:border-l-4 border-[#FF2D78] p-6 md:p-8 animate-on-scroll md:mt-24 relative group text-center md:text-left hover:scale-105 hover:bg-[#0d0d0d] hover:shadow-[0_0_40px_rgba(255,45,120,0.2)] hover:z-20 transition-all duration-300 cursor-default">
+          <div className="flex-1 border-t-4 md:border-t-0 md:border-l-4 border-[#FF2D78] p-6 md:p-8 animate-on-scroll md:mt-24 relative group text-center md:text-left hover:scale-105 hover:bg-[#0d0d0d] hover:shadow-[0_0_40px_rgba(255,45,120,0.2)] hover:z-20 transition-all duration-300 cursor-default" style={{ transitionDelay: '300ms' }}>
             <div className="text-6xl md:text-7xl mb-4 md:mb-6 transform group-hover:scale-110 transition-transform duration-300" role="img" aria-label="Ícone de Piercing">💎</div>
             <h3 className="font-playfair text-3xl md:text-4xl neon-pink mb-4 md:mb-6 uppercase">PIERCING</h3>
             <p className="font-raleway text-lg md:text-xl text-gray-300 leading-relaxed">
@@ -73,7 +73,7 @@ export default function App() {
             </p>
           </div>
           
-          <div className="flex-1 border-t-4 md:border-t-0 md:border-l-4 border-[#FFD700] p-6 md:p-8 animate-on-scroll md:mt-48 relative group text-center md:text-left hover:scale-105 hover:bg-[#0d0d0d] hover:shadow-[0_0_40px_rgba(255,215,0,0.2)] hover:z-20 transition-all duration-300 cursor-default">
+          <div className="flex-1 border-t-4 md:border-t-0 md:border-l-4 border-[#FFD700] p-6 md:p-8 animate-on-scroll md:mt-48 relative group text-center md:text-left hover:scale-105 hover:bg-[#0d0d0d] hover:shadow-[0_0_40px_rgba(255,215,0,0.2)] hover:z-20 transition-all duration-300 cursor-default" style={{ transitionDelay: '500ms' }}>
             <div className="text-6xl md:text-7xl mb-4 md:mb-6 transform group-hover:scale-110 transition-transform duration-300" role="img" aria-label="Ícone de Consultoria">🗣️</div>
             <h3 className="font-playfair text-3xl md:text-4xl neon-gold mb-4 md:mb-6 uppercase">CONSULTORIA</h3>
             <p className="font-raleway text-lg md:text-xl text-gray-300 leading-relaxed">
@@ -91,7 +91,7 @@ export default function App() {
           </h2>
 
           <div className="flex flex-col gap-20 md:gap-24">
-            <div className="flex flex-col md:flex-row items-center md:items-center gap-4 md:gap-8 animate-on-scroll ml-0 text-center md:text-left">
+            <div className="flex flex-col md:flex-row items-center md:items-center gap-4 md:gap-8 animate-on-scroll ml-0 text-center md:text-left" style={{ transitionDelay: '100ms' }}>
               <div className="text-7xl md:text-9xl drop-shadow-2xl" role="img" aria-label="Ícone LGBTQ+ Seguro">🏳️‍🌈</div>
               <div className="max-w-2xl">
                 <h3 className="font-playfair text-3xl md:text-5xl neon-purple uppercase mb-3 md:mb-4">LGBTQ+ SEGURO</h3>
@@ -101,7 +101,7 @@ export default function App() {
               </div>
             </div>
 
-            <div className="flex flex-col md:flex-row items-center md:items-center gap-4 md:gap-8 animate-on-scroll md:ml-24 text-center md:text-left">
+            <div className="flex flex-col md:flex-row items-center md:items-center gap-4 md:gap-8 animate-on-scroll md:ml-24 text-center md:text-left" style={{ transitionDelay: '300ms' }}>
               <div className="text-7xl md:text-9xl drop-shadow-2xl" role="img" aria-label="Ícone Materiais Certificados">💉</div>
               <div className="max-w-2xl">
                 <h3 className="font-playfair text-3xl md:text-5xl neon-pink uppercase mb-3 md:mb-4">MATERIAIS CERTIFICADOS</h3>
@@ -111,7 +111,7 @@ export default function App() {
               </div>
             </div>
 
-            <div className="flex flex-col md:flex-row items-center md:items-center gap-4 md:gap-8 animate-on-scroll md:ml-48 text-center md:text-left">
+            <div className="flex flex-col md:flex-row items-center md:items-center gap-4 md:gap-8 animate-on-scroll md:ml-48 text-center md:text-left" style={{ transitionDelay: '500ms' }}>
               <div className="text-7xl md:text-9xl drop-shadow-2xl" role="img" aria-label="Ícone Artistas Especializados">🎨</div>
               <div className="max-w-2xl">
                 <h3 className="font-playfair text-3xl md:text-5xl neon-gold uppercase mb-3 md:mb-4">ARTISTAS ESPECIALIZADOS</h3>
